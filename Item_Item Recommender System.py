@@ -324,8 +324,8 @@ def RMSE(prediction_file, test_file):
 
 
 
-# number_of_users = 943
-# number_of_moives = 1682
+number_of_users = 943
+number_of_moives = 1682
 
 raw_file = './ml-100k/raw.data'
 number_of_users, number_of_moives, test_user_lst = similarity_mian_function(raw_file)#this part is used to do the similarity computation
